@@ -1,0 +1,2 @@
+print("Hello World!"[::-1])
+#output !dlroW olleH
