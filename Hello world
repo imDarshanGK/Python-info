@@ -1,0 +1,5 @@
+print("Hello World!"[::-1])
+#output !dlroW olleH
+
+joined_string = ', '.join(['apple', 'banana', 'cherry']) #output 'apple, banana, cherry'
+
