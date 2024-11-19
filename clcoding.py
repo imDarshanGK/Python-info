@@ -14,3 +14,4 @@ epsilon = 1e-9  # Define a small tolerance value
 # Use the tolerance to compare
 print(abs(a - b) < epsilon)  # This should print True, as the difference is within the tolerance
 print(abs(x - y) < epsilon)  # This should print True as well
+
