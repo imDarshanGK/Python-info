@@ -1,5 +1,8 @@
-celsius = 25
-fahrenheit = (celsius * 9/5) + 32
-print(fahrenheit)
+# Get Celsius input from the user
+celsius = float(input("Enter temperature in Celsius: "))
 
-#output 77.0
+# Convert Celsius to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Output the result
+print(f"{celsius}°C is equal to {fahrenheit}°F")
