@@ -10,4 +10,4 @@ print("Second element:", tuple[1])
 # New feature: Print all elements using a loop
 print("All elements:")
 for element in tuple:
-    print(element)
+    print(element) 
