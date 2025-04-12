@@ -1,3 +1,6 @@
-nums = [5,15,25,35]
+nums = [5, 15, 25, 35]
+total = 0
 for i in nums:
-  print(i/5, end="")
+    total += i / 5
+    print(i / 5, end=" ")
+print("\nSum of divided values:", total)
