@@ -1,5 +1,7 @@
 x = 10
 try:
-    print(x / 0)  # This will raise a ZeroDivisionError
+    print(x / 0)
 except Exception as e:
-    print(e)  # This will catch the exception and print it
+    print(e)
+    with open("log.txt", "a") as f:
+        f.write(f"Error: {e}\n")
