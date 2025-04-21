@@ -1,3 +1,4 @@
 a = ["Follow", "My", "Github", "Account"]
-for word in a:
-    print(word)
+
+for index, word in enumerate(a):
+    print(f"{index}: {word.upper()}")
